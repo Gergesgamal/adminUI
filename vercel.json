@@ -6,6 +6,6 @@
     
   ],
   "rewrites" : [
-    { "source": "/(.*)", "destimation":"/index.html" },
+    { "source": "/(.*)", "destimation":"/index.html" }
   ]
 }
