@@ -1,13 +1,15 @@
 {
-  "redirects": [
-    "source": "/",
-    "destination": "/admin",
-    "permanent": true
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/admin",
+            "permanent": true
+        }
   ],
-  "rewrites" : [
-    { 
-      "source": "/(.*)", 
-      "destimation": "/index.html" 
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destimation": "/index.html"
     }
   ]
 }
